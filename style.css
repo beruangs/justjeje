@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.linktr {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
 html {
-  min-height: 100vh;
+  height: 100%;
 }
 
 body {
@@ -16,7 +23,6 @@ body {
   top: 0;
   z-index: -1;
 }
-
 
 .content {
   background-color: rgb(24, 39, 74);
@@ -131,5 +137,14 @@ h1 {
   .content {
     margin: 1em 0em;
     padding: 1em;
+  }
+}
+
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
   }
 }
