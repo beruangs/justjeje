@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: Maginia;
+  src: url("Maginia.otf") format("opentype");
+}
 
 .linktr{
   overflow-y: auto; 
@@ -132,7 +136,7 @@ h1 {
 .footer {
   font-size: 0.68rem;
   color: #c0b763;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .links {
