@@ -31,11 +31,6 @@ body {
 .content {
   background-color: rgb(24, 39, 74);
   border-radius: 20px;
-  box-shadow: 
-    0px 100px 80px rgb(0 0 0 / 22%), 
-    0px 41.7776px 33.4221px rgb(0 0 0 / 16%), 
-    0px 12.5216px 10.0172px rgb(0 0 0 / 11%), 
-    0px 2.76726px 2.21381px rgb(0 0 0 / 6%);
   box-sizing: border-box;
   padding: 2em 4em;
   position: absolute;
@@ -52,11 +47,6 @@ body {
 .content-newupload {
   background-color: rgb(24, 39, 74);
   border-radius: 20px;
-  box-shadow: 
-    0px 100px 80px rgb(0 0 0 / 22%), 
-    0px 41.7776px 33.4221px rgb(0 0 0 / 16%), 
-    0px 12.5216px 10.0172px rgb(0 0 0 / 11%), 
-    0px 2.76726px 2.21381px rgb(0 0 0 / 6%);
   box-sizing: border-box;
   padding: 2em 4em;
   position: absolute;
@@ -73,11 +63,6 @@ body {
 .content-donate {
   background-color: rgb(24, 39, 74);
   border-radius: 20px;
-  box-shadow: 
-    0px 100px 80px rgb(0 0 0 / 22%), 
-    0px 41.7776px 33.4221px rgb(0 0 0 / 16%), 
-    0px 12.5216px 10.0172px rgb(0 0 0 / 11%), 
-    0px 2.76726px 2.21381px rgb(0 0 0 / 6%);
   box-sizing: border-box;
   padding: 2em 4em;
   position: absolute;

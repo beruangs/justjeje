@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 @font-face {
-  font-family: GraublauWeb;
-  src: url("/Maginia.otf") format("opentype");
+  font-family: Maginia;
+  src: url("Maginia.otf") format("opentype");
 }
 
 .linktr{
@@ -32,53 +31,6 @@ body {
 .content {
   background-color: rgb(24, 39, 74);
   border-radius: 20px;
-  box-shadow: 
-    0px 100px 80px rgb(0 0 0 / 22%), 
-    0px 41.7776px 33.4221px rgb(0 0 0 / 16%), 
-    0px 12.5216px 10.0172px rgb(0 0 0 / 11%), 
-    0px 2.76726px 2.21381px rgb(0 0 0 / 6%);
-  box-sizing: border-box;
-  padding: 2em 4em;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: translate(-50%, -50%);
-}
-
-.content-newupload {
-  background-color: rgb(24, 39, 74);
-  border-radius: 20px;
-  box-shadow: 
-    0px 100px 80px rgb(0 0 0 / 22%), 
-    0px 41.7776px 33.4221px rgb(0 0 0 / 16%), 
-    0px 12.5216px 10.0172px rgb(0 0 0 / 11%), 
-    0px 2.76726px 2.21381px rgb(0 0 0 / 6%);
-  box-sizing: border-box;
-  padding: 2em 4em;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: translate(-50%, -50%);
-}
-
-.content-donate {
-  background-color: rgb(24, 39, 74);
-  border-radius: 20px;
-  box-shadow: 
-    0px 100px 80px rgb(0 0 0 / 22%), 
-    0px 41.7776px 33.4221px rgb(0 0 0 / 16%), 
-    0px 12.5216px 10.0172px rgb(0 0 0 / 11%), 
-    0px 2.76726px 2.21381px rgb(0 0 0 / 6%);
   box-sizing: border-box;
   padding: 2em 4em;
   position: absolute;
@@ -137,7 +89,7 @@ h1 {
 .footer {
   font-size: 0.68rem;
   color: #c0b763;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .links {
@@ -166,64 +118,6 @@ h1 {
 
 .link-items:hover {
   transform: scale(1.03);
-}
-
-.link-newupload {
-  background: #29a87e;
-  padding: 0.4em;
-  font-size: 1.45rem;
-  text-decoration: none;
-  color: white;
-  border-radius: 8px;
-  text-align: center;
-  width: 20em;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-  font-family: "Poppins", sans-serif;
-}
-
-.link-newupload:hover {
-  animation: shake 3s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
 }
 
 @media screen and (max-width: 720px) {
@@ -268,17 +162,5 @@ h1 {
     position: absolute;
     top: 60%;
     transform: translate(-50%, -50%);
-  }
-  .content-newupload {
-    border-radius: 15px;
-    padding: 3.5em;
-    display: flex;
-    position: absolute;
-    transform: translate(-50%, -50%);
-  }
-  .content-donate {
-    border-radius: 15px;
-    padding: 3.5em;
-    display: flex;
   }
 }
