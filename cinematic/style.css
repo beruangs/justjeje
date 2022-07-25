@@ -127,9 +127,6 @@ h1 {
   .link-items {
     width: 10em;
   }
-  .link-newupload {
-    width: 10em;
-  }
   .links {
     gap: 1.3em;
   }
@@ -143,13 +140,7 @@ h1 {
   .username {
     font-size: 1.6rem;
   }
-  .desc {
-    font-size: 0.7rem;
-  }
   .link-items {
-    width: 9em;
-  }
-  .link-newupload {
     width: 9em;
   }
   .links {
@@ -157,10 +148,7 @@ h1 {
   }
   .content {
     border-radius: 15px;
-    padding: 3.5em;
-    display: flex;
-    position: absolute;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 }
