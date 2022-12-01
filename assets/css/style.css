@@ -419,7 +419,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #e15d50;
+  background: #3c63bc;
   bottom: 0;
   left: 0;
 }
@@ -464,7 +464,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #9ddad9;
+  color: #3c63bc;
   line-height: 0;
 }
 
@@ -506,7 +506,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #9ddad9;
+  background-color: #3c63bc;
 }
 
 /*--------------------------------------------------------------
@@ -526,7 +526,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #3c63bc;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -539,14 +539,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #d1d4d6;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #3c63bc;
+  color: #e9eef2;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -871,6 +871,9 @@ section {
 --------------------------------------------------------------*/
 .section-bg {
   background: #202b4b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .linkt body {
@@ -921,7 +924,7 @@ section {
   line-height: 1.5;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  color: black;
+  color: #e9eef2;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -935,28 +938,28 @@ section {
 .linkt .linkt_first {
   font-size: 20px;
   text-align: center;
-  border-bottom: 3px solid #7eabb4;
-  box-shadow: inset 0 -4px 0 #7eabb4;
-  border: 1px solid goldenrod;
-  background-color: #7eabb4;
+  border-bottom: 3px solid #3c63bc;
+  box-shadow: inset 0 -4px 0 #3c63bc;
+  border: 1px solid #506dff;
+  background-color: #3c63bc;
 }
 
 .linkt .linkt_second {
   font-size: 20px;
   text-align: center;
-  border-bottom: 3px solid #aacdd4;
-  box-shadow: inset 0 -4px 0 #aacdd4;
-  border: 1px solid #e9eef2;
-  background-color: #aacdd4;
+  border-bottom: 3px solid #627ab4;
+  box-shadow: inset 0 -4px 0 #627ab4;
+  border: 1px solid #506dff;
+  background-color: #627ab4;
 }
 
-.linkt .linkt_third {
+.linkt .linkt_donate {
   font-size: 20px;
   text-align: center;
-  border-bottom: 3px solid #e15d50;
-  box-shadow: inset 0 -4px 0 #e15d50;
+  border-bottom: 3px solid #3c63bc;
+  box-shadow: inset 0 -4px 0 #3c63bc;
   border: 2px solid #e9eef2;
-  background-color: #e15d50;
+  background-color: #3c63bc;
 }
 
 /*--------------------------------------------------------------
