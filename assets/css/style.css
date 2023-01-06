@@ -485,6 +485,24 @@ section {
   margin-bottom: 0;
 }
 
+.about .cta-btn {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+  background: #3c63bc;
+}
+
+.about .cta-btn:hover {
+  background: #506dff;
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -520,6 +538,57 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #3c63bc;
+}
+
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+  padding-bottom: 30px;
+}
+
+.facts .count-box {
+  padding: 30px;
+  width: 100%;
+}
+
+.facts .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #d1d4d6;
+  float: left;
+  line-height: 0;
+}
+
+.facts .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #d1d4d6;
+  margin-left: 60px;
+}
+
+.facts .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #d1d4d6;
+}
+
+.facts .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #d1d4d6;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.facts .count-box a:hover {
+  color: #e9eef2;
 }
 
 /*--------------------------------------------------------------
@@ -790,6 +859,18 @@ section {
   margin-bottom: 2px;
   font-size: 14px;
   color: #d1d4d6;
+}
+
+.contact .info a {
+  padding: 0 0 10px 60px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: #d1d4d6;
+  text-decoration: none;
+}
+
+.contact .info a:hover {
+  color: #e9eef2;
 }
 
 .contact .info .email p {
