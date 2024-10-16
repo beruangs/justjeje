@@ -322,7 +322,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url('https://media.discordapp.net/attachments/1268888467237240842/1268888638457118804/hero.JPG?ex=66ae1022&is=66acbea2&hm=3ee3800c5fdabd0fce8cc8312207a7b97941176f2136c82354c80f1b9faad5c7&=&format=webp&quality=lossless') top center;
+  background: url(/assets/img/hero.jpg) top center;
   background-size: cover;
 }
 
